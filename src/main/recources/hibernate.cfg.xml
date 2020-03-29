@@ -16,6 +16,8 @@
 
         <mapping class="model.Country"/>
         <mapping class="model.Address"/>
+        <mapping class="model.User"/>
+        <mapping class="model.Order"/>
 
     </session-factory>
 </hibernate-configuration>

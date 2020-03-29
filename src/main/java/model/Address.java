@@ -6,7 +6,6 @@ import javax.persistence.*;
 
 @Entity
 @Data
-@Table(name = "order")
 public class Address {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -14,7 +13,7 @@ public class Address {
     private int addId;
     @Column(name = "ADD_STREET")
     private String street;
-    @Column(name = "ADD_BULDING_NO")
+    @Column(name = "ADD_BUILDING_NO")
     private String buildingNo;
     @Column(name = "ADD_APARTAMENT_NO")
     private String appartamentNo;
