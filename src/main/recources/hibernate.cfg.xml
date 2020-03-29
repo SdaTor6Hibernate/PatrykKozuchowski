@@ -15,6 +15,7 @@
         <property name="hbm2d11.auto">validate</property>
 
         <mapping class="model.Country"/>
+        <mapping class="model.Address"/>
 
     </session-factory>
 </hibernate-configuration>
